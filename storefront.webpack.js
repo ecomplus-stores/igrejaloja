@@ -13,6 +13,9 @@ module.exports = () => ({
         './js/LoginBlock.js': path.resolve(__dirname, 'template/js/custom-js/components/LoginBlock.js'),
         './js/AccountForm.js': path.resolve(__dirname, 'template/js/custom-js/components/AccountForm.js'),
         './html/AccountForm.html': path.resolve(__dirname, 'template/js/custom-js/components/AccountForm.html'),
+        './js/PaymentMethods.js': path.resolve(__dirname, 'template/js/custom-js/components/PaymentMethods.js'),
+        './html/EcCheckout.html': path.resolve(__dirname, 'template/js/custom-js/components/EcCheckout.html'),
+      './js/EcCheckout.js': path.resolve(__dirname, 'template/js/custom-js/components/EcCheckout.js')
     }
   }
 })
